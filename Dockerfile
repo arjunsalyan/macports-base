@@ -34,7 +34,7 @@ ADD . /tmp/
 RUN cd /tmp/ && \
     ./configure --with-objc-runtime=GNU --with-objc-foundation=GNU && \
     make && \
-    make install1
+    make install
 
 FROM ubuntu:18.04
 
